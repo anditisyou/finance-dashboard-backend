@@ -258,4 +258,4 @@ All list endpoints return a `meta` object:
 4. **Dashboard scope**: Analysts see only their own transactions in the dashboard; admins see all users' data.
 5. **Password hashing**: bcrypt with salt rounds = 12 (balances security and performance).
 6. **No refresh tokens**: JWTs are stateless with a configurable expiry. Refresh token rotation can be added if required.
-# finance-dashboard-backend
+
